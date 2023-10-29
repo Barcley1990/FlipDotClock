@@ -1,0 +1,40 @@
+          
+// PORTx = 0bPx7 ......... Px0
+
+
+/*
+        PORTF = F6,F5,F4,F1,F0
+Column  Segment B1,B0,A2,A1,A0
+COL_0   3G      0b111xx11 0 
+COL_1   3F      0b111xx10 1
+COL_2   3E      0b111xx01 2
+COL_3   3D      0b111xx00 3 
+COL_4   3C      0b110xx11 16 
+COL_5   3B      0b110xx10 17 
+COL_6   3A      0b110xx01 18
+COL_7   2G      0b101xx11 32  
+COL_8   2F      0b101xx10 33  
+COL_9   2E      0b101xx01 34  
+COL_10  2D      0b101xx00 35
+COL_11  2C      0b100xx11 48
+COL_12  2B      0b100xx10 49
+COL_13  2A      0b100xx01 50
+COL_14  1G      0b011xx11 64
+COL_15  1F      0b011xx10 65
+COL_16  1E      0b011xx01 66
+COL_17  1D      0b011xx00 67
+COL_18  1C      0b010xx11 80
+COL_19  1B      0b010xx10 81
+COL_20  1A      0b010xx01 82
+
+MUX: 74HC4061
+ROW     C,B,A
+ROW_0   L L L   
+ROW_1   L L H 
+ROW_2   L H L 
+ROW_3   L H H 
+ROW_4   H L L 
+ROW_5   H L H 
+ROW_6   H H L 
+ROW_7   H H H 
+*/
